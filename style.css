@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to bottom, #00000044, #00000044), url(background.png) center center / cover;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: transparent;
+  background: linear-gradient(to bottom, #ffffff55, #ffffff55), linear-gradient(to bottom, #978AFE, #7978FE);
+  background-clip: text;
+  margin: 0;
+}
+h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: transparent;
+  background: linear-gradient(to bottom, #ffffff55  , #ffffff55), linear-gradient(to bottom, #978AFE, #7978FE);
+  background-clip: text;
+}
+
+.code {
+  margin-top: 1rem;
+  background: #00000044;
+  backdrop-filter: blur(1rem);
+  border-radius: 0.75rem;
+  padding: 1rem 1.5rem;
+  color: white;
+  font-family: "Source Code Pro";
+  font-weight: 500;
+  border: 1px solid #ffffff11;
+}
+
+.code > span:nth-child(1) {color: #C678DD}
+.code > span:nth-child(2) {color: #C678DD}
+.code > span:nth-child(3) {color: #E5C07B}
+.code > span:nth-child(4) {color: #56B6C2}
+.code > span:nth-child(5) {color: #98C379}
+.code > span:nth-child(6) {color: #c2c2c2}
+.code > span:nth-child(7) {color: #98C379}
+
+button {
+  margin-top: 1rem;
+  border: none;
+  padding: 0.75rem 1rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: white;
+  backdrop-filter: brightness(2) blur(2px);
+  border-radius: 0.5rem;
+  background: transparent;
+  cursor: pointer;  
+	transition: transform 500ms cubic-bezier(0.16, 1, 0.3, 1);
+  width: 11rem;
+}
+button:hover {
+  transform: scale(1.1);
+}
+button:active {
+  transform: scale(0.9);
+}
