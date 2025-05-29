@@ -52,6 +52,8 @@ h2 {
 .code > span:nth-child(5) {color: #98C379}
 .code > span:nth-child(6) {color: #c2c2c2}
 .code > span:nth-child(7) {color: #98C379}
+.code > span:nth-child(8) {color: #c2c2c2}
+.code > span:nth-child(9) {color: #98C379}
 
 button {
   margin-top: 1rem;
